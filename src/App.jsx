@@ -136,7 +136,7 @@ function App() {
             <div className="bg-slate-900/70 backdrop-blur-md pl-5 pr-3 py-2 rounded-xl border border-bup-golden/30 shadow-[0_0_15px_rgba(254,164,6,0.1)] flex items-center gap-4 transition-all hover:bg-slate-900/90">
               <div className="flex flex-col text-right justify-center">
                 <span className="text-[9px] font-bold tracking-[0.25em] text-slate-400 uppercase mb-1">
-                  Full-Stack App By
+                  Simulator Developed By
                 </span>
                 <span
                   className="text-sm font-black text-white tracking-wide leading-none mb-1.5"
