@@ -565,7 +565,7 @@ const BusTracker = ({
           window.tb = new Threebox(map, mbxContext, { defaultLights: true });
 
           const options = {
-            obj: "/models/bus.glb",
+            obj: "models/bus.glb",
             type: "gltf",
             scale: { x: 3, y: 3, z: 3 },
             units: "meters",
