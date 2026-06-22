@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bup-green      : #16501D;
+  --color-bup-green-light: hsl(127, 57%, 35%);
+  --color-bup-golden     : #FEA406;
+  --color-bup-red        : #FD0807;
+  --color-bup-navy       : #140A7A;
+  --color-bup-sky        : #50A2CA;
+}
+
+body {
+  margin          : 0;
+  font-family     : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f8fafc;
+  /* Very light slate for a clean minimal backdrop */
+}
+
+/* Custom styling for the model-viewer element to ensure it fills the container */
+model-viewer {
+  width         : 100%;
+  height        : 100%;
+  --poster-color: transparent;
+}
